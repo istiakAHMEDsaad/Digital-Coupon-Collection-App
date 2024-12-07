@@ -1,0 +1,86 @@
+https://github.com/programming-hero-web-course1/b10-a9-authentication-istiakAHMEDsaad
+
+
+
+
+npm install -g firebase-tools
+firebase login
+firebase init
+firebase deploy
+
+
+
+
+
+
+
+<div className=''>
+      <Card className='max-w-sm lg:hover:scale-95 transition-all cursor-pointer' imgSrc={brand_logo} horizontal>
+        {/* 1 */}
+        <div className=''>
+          <h5 className='text-2xl font-bold tracking-tight text-gray-900 dark:text-white'>
+            {brand_name}
+          </h5>
+          <p className='flex items-center gap-1'>
+            Ratings: <Rating className='max-w-28' value={rating} readOnly />
+          </p>
+        </div>
+        <hr className='border-b w-full border-gray-300' />
+        <p className='font-normal text-gray-700 dark:text-gray-400'>
+          {description}
+        </p>
+        <div>
+          <button className='border px-4 py-[6px] rounded-[4px] bg-cyan-500 hover:bg-cyan-400 active:scale-95 transition-all'>
+            View Coupons
+          </button>
+          {isSaleOn ? <p className='animate__animated animate__flash animate__slow animate__infinite	infinite text-amber-500 italic'>Sale is On</p> : ''}
+        </div>
+      </Card>
+    </div>
+
+
+
+
+
+
+
+<div className="max-w-sm mx-auto bg-white border border-gray-200 rounded-lg shadow-md hover:shadow-lg overflow-hidden">
+      {/* Header with Brand Logo and Rating */}
+      <div className="flex items-center p-4">
+        <img
+          src={brand_logo}
+          alt={`${brand_name} logo`}
+          className="w-16 h-16 rounded-full object-cover"
+        />
+        <div className="ml-4">
+          <h2 className="text-lg font-semibold">{brand_name}</h2>
+          <div className="flex items-center">
+            <FaStar className="text-yellow-500 mr-1" />
+            <p className="text-gray-600">{rating.toFixed(1)}</p>
+          </div>
+        </div>
+      </div>
+
+      {/* Description Section */}
+      <div className="px-4">
+        <p className="text-sm text-gray-700">{description}</p>
+      </div>
+
+      {/* Footer Section */}
+      <div className="flex items-center justify-between p-4">
+        <button
+          
+          className="px-4 py-2 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition"
+        >
+          View Coupons
+        </button>
+
+        {isSaleOn && (
+          <div className="relative">
+            <p className="text-red-500 font-bold text-sm animate-bounce">
+              Sale is On!
+            </p>
+          </div>
+        )}
+      </div>
+    </div>

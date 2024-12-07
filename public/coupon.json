@@ -1,0 +1,158 @@
+[
+  {
+    "_id": "1",
+    "brand_name": "TechMart",
+    "rating": 4.5,
+    "description": "Latest tech gadgets and accessories",
+    "brand_logo": "https://scontent.fdac138-1.fna.fbcdn.net/v/t39.30808-1/283703692_1449677848797311_1572320776791671633_n.jpg?stp=dst-jpg_s200x200&_nc_cat=107&ccb=1-7&_nc_sid=f4b9fd&_nc_ohc=bLpenXSB9D8Q7kNvgG2vGr0&_nc_zt=24&_nc_ht=scontent.fdac138-1.fna&_nc_gid=A6tww8TdqcBuOGPsHrG5NJY&oh=00_AYDt9Sc5rwguevNkwRqafz5jtkck3UulGX8pr3BbRUupbg&oe=67426A43",
+    "shop_link": "https://www.techmartbpo.com/",
+    "category": "Electronics",
+    "isSaleOn": true,
+    "coupons": [
+      {
+        "coupon_code": "TECH10",
+        "description": "10% off on all items",
+        "expiry_date": "2024-12-31",
+        "condition": "Minimum purchase of $50",
+        "coupon_type": "Discount"
+      },
+      {
+        "coupon_code": "FREESHIP",
+        "description": "Free shipping on orders over $20",
+        "expiry_date": "2024-12-15",
+        "condition": "Only valid in the US",
+        "coupon_type": "Shipping"
+      }
+    ]
+  },
+  {
+    "_id": "2",
+    "brand_name": "Fashionista",
+    "rating": 4.8,
+    "description": "Trendy clothing and accessories",
+    "brand_logo": "https://img.freepik.com/premium-vector/fashionista-slogan-with-fashion-woman-hand-drawn-illustration_241806-252.jpg",
+    "shop_link": "https://fashionista.com",
+    "category": "Fashion",
+    "isSaleOn": true,
+    "coupons": [
+      {
+        "coupon_code": "STYLE20",
+        "description": "20% off on all clothing",
+        "expiry_date": "2024-11-30",
+        "condition": "Valid on full-priced items",
+        "coupon_type": "Discount"
+      },
+      {
+        "coupon_code": "BOGO",
+        "description": "Buy one, get one free on accessories",
+        "expiry_date": "2024-12-20",
+        "condition": "Second item must be of equal or lesser value",
+        "coupon_type": "Offer"
+      }
+    ]
+  },
+  {
+    "_id": "3",
+    "brand_name": "HomeEssentials",
+    "rating": 4.2,
+    "description": "All your home needs in one place",
+    "brand_logo": "https://scontent.fdac138-1.fna.fbcdn.net/v/t39.30808-6/351510177_3508704199343865_6390468227526242269_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=EDoZNxxWk5gQ7kNvgF9Gb_b&_nc_zt=23&_nc_ht=scontent.fdac138-1.fna&_nc_gid=AAktAzNN1WMHePQwxbYavNk&oh=00_AYDztbpL4yD8J98SCcb8mX5JNkb5veLEfTQf2_f_HcotHw&oe=67426428",
+    "shop_link": "https://www.homeessentials.co.uk/",
+    "category": "Home",
+    "isSaleOn": false,
+    "coupons": [
+      {
+        "coupon_code": "HOME15",
+        "description": "15% off on kitchenware",
+        "expiry_date": "2024-12-10",
+        "condition": "Valid on orders above $30",
+        "coupon_type": "Discount"
+      },
+      {
+        "coupon_code": "DECOR10",
+        "description": "10% off on home decor",
+        "expiry_date": "2024-12-25",
+        "condition": "Valid only for online purchases",
+        "coupon_type": "Discount"
+      }
+    ]
+  },
+  {
+    "_id": "4",
+    "brand_name": "TravelBuddy",
+    "rating": 4.7,
+    "description": "Your perfect travel companion",
+    "brand_logo": "https://scontent.fdac138-2.fna.fbcdn.net/v/t39.30808-6/305314378_457936183024399_727506926442447436_n.png?_nc_cat=105&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=Ieq9W34vqsMQ7kNvgHB1LbN&_nc_zt=23&_nc_ht=scontent.fdac138-2.fna&_nc_gid=AshKlkzsMQk-OGptGRSJhA6&oh=00_AYAWY8sQIjvX4pwRSIB8-bBPguIehnXEnOUGkFPzkuDhNQ&oe=674272D5",
+    "shop_link": "https://beatravelbuddy.com/community",
+    "category": "Travel",
+    "isSaleOn": true,
+    "coupons": [
+      {
+        "coupon_code": "FLIGHT50",
+        "description": "$50 off on international flights",
+        "expiry_date": "2024-12-31",
+        "condition": "Applicable on round trips",
+        "coupon_type": "Discount"
+      },
+      {
+        "coupon_code": "HOTEL20",
+        "description": "20% off on hotel bookings",
+        "expiry_date": "2024-12-15",
+        "condition": "Minimum booking of 2 nights",
+        "coupon_type": "Discount"
+      }
+    ]
+  },
+  {
+    "_id": "5",
+    "brand_name": "BookHaven",
+    "rating": 4.6,
+    "description": "A paradise for book lovers",
+    "brand_logo": "https://marla.ie/wp-content/uploads/2016/09/1-10.jpg.webp",
+    "shop_link": "https://www.bookhaven.ie/",
+    "category": "Books",
+    "isSaleOn": false,
+    "coupons": [
+      {
+        "coupon_code": "READ10",
+        "description": "10% off on all books",
+        "expiry_date": "2024-12-20",
+        "condition": "Valid on orders above $25",
+        "coupon_type": "Discount"
+      },
+      {
+        "coupon_code": "EBOOK5",
+        "description": "$5 off on eBooks",
+        "expiry_date": "2024-11-30",
+        "condition": "Applicable on select titles",
+        "coupon_type": "Discount"
+      }
+    ]
+  },
+  {
+    "_id": "6",
+    "brand_name": "Gamer's Hub",
+    "rating": 4.9,
+    "description": "Gaming consoles, accessories, and more",
+    "brand_logo": "https://scontent.fdac138-2.fna.fbcdn.net/v/t39.30808-6/305236141_506948614769637_3866977169336433204_n.png?_nc_cat=101&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=hAypLkWtR6oQ7kNvgE3T3qa&_nc_zt=23&_nc_ht=scontent.fdac138-2.fna&_nc_gid=ANBlZf5y4jFD9tTRhotrVrB&oh=00_AYCDdySraSMqcBaujcYz3bHhOXoZn-r6pAkrKVFOanBNZg&oe=67428224",
+    "shop_link": "https://gamershub.gg/",
+    "category": "Gaming",
+    "isSaleOn": true,
+    "coupons": [
+      {
+        "coupon_code": "GAME20",
+        "description": "20% off on gaming accessories",
+        "expiry_date": "2024-12-31",
+        "condition": "Valid on orders above $50",
+        "coupon_type": "Discount"
+      },
+      {
+        "coupon_code": "CONSOLE50",
+        "description": "$50 off on gaming consoles",
+        "expiry_date": "2024-12-25",
+        "condition": "Only applicable on select models",
+        "coupon_type": "Discount"
+      }
+    ]
+  }
+]
